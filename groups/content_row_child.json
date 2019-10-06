@@ -1,0 +1,29 @@
+{
+  "info": {
+    "name": "Content_row_child",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_content_row_children",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "text_alignment": {
+      "enum": [
+        "center",
+        "left"
+      ],
+      "type": "enumeration"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Footer_Service",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_footer_services",
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

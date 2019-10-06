@@ -23,6 +23,7 @@
     "knex": "latest",
     "lodash": "^4.17.5",
     "mysql": "latest",
+    "node-sass": "^4.12.0",
     "strapi": "3.0.0-beta.16.8",
     "strapi-admin": "3.0.0-beta.16.8",
     "strapi-hook-bookshelf": "3.0.0-beta.16.8",

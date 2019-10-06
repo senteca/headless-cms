@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "customerservices": {
+      "group": "footer_service",
+      "type": "group",
+      "repeatable": true
+    },
+    "abouts": {
+      "group": "footer_service",
+      "type": "group",
+      "repeatable": true
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "trademark": {
+      "type": "string"
+    }
+  }
+}

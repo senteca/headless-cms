@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "women",
+  "info": {
+    "name": "women",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "rows": {
+      "collection": "contentrow"
+    }
+  }
+}

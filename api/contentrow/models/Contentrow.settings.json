@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "contentrows",
+  "info": {
+    "name": "contentrow",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "identifier": {
+      "type": "string"
+    },
+    "children": {
+      "group": "content_row_child",
+      "type": "group",
+      "repeatable": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
