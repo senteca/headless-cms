@@ -5,4 +5,10 @@
  * to customize this service
  */
 
-module.exports = {};
+module.exports = {
+  find(params) {
+    return strapi
+      .query('women')
+      .find(params, ['rows', 'rows.children', 'rows.children.image']);
+  }
+};
