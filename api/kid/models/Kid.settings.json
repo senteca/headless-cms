@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "kids",
+  "info": {
+    "name": "kid",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "rows": {
+      "collection": "contentrow"
+    }
+  }
+}
