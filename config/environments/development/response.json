@@ -8,5 +8,8 @@
   "poweredBy": {
     "enabled": true,
     "value": "Strapi <strapi.io>"
+  },
+  "cacheControl": {
+    "maxAge": 666
   }
 }
