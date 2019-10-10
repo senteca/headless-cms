@@ -5,7 +5,7 @@ module.exports = strapi => {
         await next();
 
         // Set X-Response-Time header
-        ctx.set("cache-control", "max-age=86001");
+        ctx.set("cache-control", "max-age=31557600");
       });
     }
   };
